@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29254CC62C8C7D69006783C2 /* FortuneWheelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29254CC52C8C7D69006783C2 /* FortuneWheelView.swift */; };
+		29254CC82C8C7D77006783C2 /* EditWheelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29254CC72C8C7D77006783C2 /* EditWheelView.swift */; };
 		29CFFB6D2C80F2F200062618 /* wheelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CFFB6C2C80F2F200062618 /* wheelApp.swift */; };
 		29CFFB6F2C80F2F200062618 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CFFB6E2C80F2F200062618 /* ContentView.swift */; };
 		29CFFB712C80F2F300062618 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29CFFB702C80F2F300062618 /* Assets.xcassets */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		29254CC52C8C7D69006783C2 /* FortuneWheelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortuneWheelView.swift; sourceTree = "<group>"; };
+		29254CC72C8C7D77006783C2 /* EditWheelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditWheelView.swift; sourceTree = "<group>"; };
 		29CFFB692C80F2F200062618 /* wheel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wheel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29CFFB6C2C80F2F200062618 /* wheelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wheelApp.swift; sourceTree = "<group>"; };
 		29CFFB6E2C80F2F200062618 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,9 +59,11 @@
 			children = (
 				29CFFB6C2C80F2F200062618 /* wheelApp.swift */,
 				29CFFB6E2C80F2F200062618 /* ContentView.swift */,
+				29254CC52C8C7D69006783C2 /* FortuneWheelView.swift */,
+				29254CC72C8C7D77006783C2 /* EditWheelView.swift */,
 				29CFFB702C80F2F300062618 /* Assets.xcassets */,
-				29CFFB722C80F2F300062618 /* Preview Content */,
 				29CFFB7C2C81284600062618 /* Launch Screen.storyboard */,
+				29CFFB722C80F2F300062618 /* Preview Content */,
 			);
 			path = wheel;
 			sourceTree = "<group>";
@@ -141,7 +147,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29254CC82C8C7D77006783C2 /* EditWheelView.swift in Sources */,
 				29CFFB6F2C80F2F200062618 /* ContentView.swift in Sources */,
+				29254CC62C8C7D69006783C2 /* FortuneWheelView.swift in Sources */,
 				29CFFB6D2C80F2F200062618 /* wheelApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
